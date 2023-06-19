@@ -11,7 +11,7 @@ Pipeline {
        }
        stage('Build'){
          steps {
-         sh mvn -B -DakipTests clean package'
+         sh 'mvn -B -DakipTests clean package'
          }
         } 
       }
