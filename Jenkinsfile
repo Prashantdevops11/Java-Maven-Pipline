@@ -14,3 +14,5 @@ Pipeline {
          sh mvn -B -DakipTests clean package'
          }
         } 
+      }
+}
